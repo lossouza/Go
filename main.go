@@ -57,7 +57,7 @@ func buildReport(student Student) (Report, error) {
 
 func calculateAverage(scores []float64) (float64, error) {
 	if len(scores) == 0 {
-		return 0, errors.New("o aluno nao possui notas")
+		return 0, errors.New("o aluno nao possui notasssssss")
 	}
 
 	total := 0.0
